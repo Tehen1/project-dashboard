@@ -1,0 +1,53 @@
+# Virtual Environment
+project_dashboard_env/
+venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.venv
+env/
+
+# Log files
+*.log
+
+# Database files
+*.db
+*.sqlite3
+
+# OS specific files
+.DS_Store
+Thumbs.db
+

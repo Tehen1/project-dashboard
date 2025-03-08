@@ -1,92 +1,442 @@
-Colonne 1,Project Name,Category,Status,Priority,Location,Next Actions,Dependencies,Tech Stack,Documentation Status,Last Updated,Résumé_Détaillé
-4,Admin Dashboard,Infrastructure,Active,Medium,/01_Active_Projects/admin-dashboard,Implement user management,None,TypeScript/React,Minimal,2024-02,
-54,Agent GPT,AI/ML,Active,High,/04_AI_Projects/agent-gpt,Update dependencies,None,Next.js,In Progress,2024-02,
-25,AI Content Generator,AI/ML,Active,High,/04_AI_Projects/content-generator,Enhance generation capabilities,GPT-4,Python/TypeScript,In Progress,2024-02,"AI Content Generator est un outil destiné à automatiser la création de contenu en utilisant des modèles d'intelligence artificielle avancés. Actif avec une priorité moyenne, le projet vise à développer les capacités de génération en intégrant des modèles comme GPT-4, à permettre la personnalisation des outputs selon les besoins des utilisateurs, et à fournir des guides détaillés sur l'utilisation et la configuration de l'outil pour obtenir des résultats optimaux."
-82,AI Content Generator,AI/ML,Active,Medium,,Développer les capacités de génération,,,In Progress,2024-02,AI Content Generator est un outil destiné à automatiser la création de contenu en utilisant des modèles d'intelligence artificielle avancés. Actif avec une priorité moyenne.
-27,AI Image Generator,AI/ML,Active,High,/04_AI_Projects/image-generator,Optimize image generation,Stable Diffusion,Python/TypeScript,In Progress,2024-02,"AI Image Generator utilise des modèles de diffusion stable comme Stable Diffusion pour créer des images réalistes et artistiques basées sur des descriptions textuelles. Actif avec une priorité moyenne, le projet vise à affiner les modèles pour améliorer la qualité et la diversité des images générées, à offrir des options de personnalisation avancées pour permettre aux utilisateurs de définir le style et le ton des images, et à fournir des guides et des exemples de prompts pour faciliter l'utilisation de l'outil."
-80,AI Image Generator,AI/ML,Active,High,,Développer les capacités de génération,,"Python, Stable Diffusion",In Progress,2024-02,AI Image Generator utilise des modèles de diffusion stable comme Stable Diffusion pour créer des images réalistes et artistiques basées sur des descriptions textuelles. Actif avec une priorité moyenne.
-7,AIFTW AI,AI/ML,Active,High,/04_AI_Projects/aiftw,Update dependencies,None,Next.js,In Progress,2024-02,"AIFTW AI est une plateforme dédiée au développement et à l'intégration de solutions d'intelligence artificielle. Actif avec une priorité moyenne, le projet vise à développer des outils avancés pour l'entraînement et le déploiement des modèles d'IA, optimiser l'architecture pour la scalabilité, et fournir des guides d'utilisation détaillés pour faciliter l'adoption et la maintenance des solutions d'IA proposées."
-86,AIFTW AI,AI/ML,Active,Medium,,Développer les outils d'IA,,,In Progress,2024-02,AIFTW AI est une plateforme dédiée au développement et à l'intégration de solutions d'intelligence artificielle. Actif avec une priorité moyenne.
-57,AIFTW Landing,Web Application,Active,Medium,/02_Web_Apps/aiftw-landing,Connect Git repository,None,Next.js,Not Started,2024-12,
-,AIFTW Landing Pages,AI/ML,In Progress,Medium,/04_AI_Projects/aiftw-landing,Consolidate versions,None,React/Next.js,Needs Update,2024-01,Les pages d'atterrissage AIFTW sont développées avec React et Next.js pour une performance optimale. Le projet nécessite la consolidation des différentes versions existantes et une optimisation de l'interface utilisateur pour améliorer l'engagement des utilisateurs.
-,AIFTW Model Training,AI/ML,Active,High,/04_AI_Projects/model-training,Optimize performance,ML Libraries,Python/TensorFlow,Partial,2024-01,Ce projet se concentre sur le développement et l'optimisation des modèles d'apprentissage automatique avec Python et TensorFlow. Il est crucial d'optimiser les performances des modèles et d'améliorer la gestion et la qualité des données d'entraînement pour des résultats plus précis et efficaces.
-,AIFTW Platform Dashboard,AI/ML,In Development,High,/04_AI_Projects/aiftw-unified,Complete Docker infrastructure,AI Models,Node.js/React,In Progress,2024-01,"Le tableau de bord de la plateforme AIFTW utilise Node.js pour le backend et React pour l'interface utilisateur, avec Docker pour la conteneurisation. Il est nécessaire de finaliser l'infrastructure Docker et d'intégrer pleinement les modèles d'IA pour une gestion efficace et scalable."
-,API Gateway Service,Infrastructure,In Development,High,/infrastructure/api-gateway,Security implementation,None,Node.js/Express,Partial,2024-01,"Le service API Gateway utilise Node.js et Express pour servir de point d'entrée unique pour toutes les APIs. Actuellement en développement, le projet nécessite l'implémentation de mesures de sécurité robustes et l'optimisation des performances en utilisant des techniques de mise en cache et de rate limiting."
-,Art Gallery Project,Web Application,Active,Low,/02_Web_Apps/art-gallery,Add gallery features,None,TypeScript,Minimal,2023-05,
-66,Astro-Boilerplate-1,Infrastructure,Active,Medium,,Finaliser le boilerplate,,"Astro, Tailwind, TypeScript",In Progress,2024-02,"Astro-Boilerplate-1 est un template de boilerplate conçu pour le développement de projets utilisant le framework Astro, offrant une structure de base et des configurations optimisées pour accélérer le démarrage de nouveaux projets."
-65,Astro-Portfolio,Web Application,Active,Medium,,Personnaliser le design,,"Astro, Tailwind, TypeScript",In Progress,2024-02,"Astro-Portfolio est un site de portfolio développé avec le framework Astro, visant à offrir une plateforme rapide et optimisée pour présenter des projets et des compétences. Actif avec une priorité moyenne, le projet se concentre sur la personnalisation du design, l'optimisation du SEO, et l'intégration d'animations."
-59,Auth0 SaaS Starter,SaaS,Active,High,/01_Active_Projects/auth0-saas,Initial setup,Auth0,Next.js,Not Started,2024-10,
-,Auto-GPT,AI/ML,Active,Medium,/04_AI_Projects/auto-gpt,Update AI models,None,Python,In Progress,2023-05,
-31,Backlink Manager,SEO,Active,Medium,/06_SEO_Tools/backlink-manager,Implement tracking features,None,Various,In Progress,2024-02,"Backlink Manager est un outil destiné à surveiller, analyser et gérer les backlinks d'un site web, éléments cruciaux pour le référencement naturel et l'autorité de domaine. Actif avec une priorité moyenne, le projet vise à développer des fonctionnalités avancées pour le suivi des nouveaux liens, l'évaluation de la qualité des backlinks, la gestion des backlinks nuisibles et la documentation des meilleures pratiques SEO."
-75,Backlink Manager,SEO,Active,Medium,,Développer les fonctionnalités de suivi,,Inconnu,In Progress,2024-02,"Backlink Manager est un outil destiné à surveiller, analyser et gérer les backlinks d'un site web, éléments cruciaux pour le référencement naturel et l'autorité de domaine. Actif avec une priorité moyenne."
-70,Binance-Trading-Bot,AI/ML,Active,Medium,,Développer des stratégies de trading,,,In Progress,2024-02,"Binance-Trading-Bot est un bot de trading automatisé conçu pour effectuer des transactions sur l'échange Binance en se basant sur des stratégies prédéfinies. Actif avec une priorité moyenne, le projet vise à développer et implémenter des stratégies de trading."
-,Bluise,Web Application,Active,Low,/02_Web_Apps/bluise,Update dependencies,None,Vue.js,In Progress,2023-07,
-9,Bolt DIY,Tools,Active,Medium,/08_Tools/bolt-diy,Develop intuitive interface,None,TypeScript,In Progress,2024-02,"Bolt DIY est une plateforme permettant aux utilisateurs de créer et de personnaliser leurs propres outils et applications de manière autonome (Do It Yourself). Actif avec une priorité moyenne, le projet vise à développer une interface utilisateur intuitive, offrir des options de personnalisation avancées et fournir des guides et tutoriels complets pour encourager la créativité et l'innovation parmi les utilisateurs."
-90,Bolt DIY,Tools,Active,Medium,,Développer une interface intuitive,,Inconnu,In Progress,2024-02,Bolt DIY est une plateforme permettant aux utilisateurs de créer et de personnaliser leurs propres outils et applications de manière autonome (Do It Yourself). Actif avec une priorité moyenne.
-8,Bolt New Local,DevOps,Active,Medium,/01_Active_Projects/bolt-new,Optimize deployment process,GitHub,Remix,In Progress,2024-12,
-69,cBot-Project,AI/ML,Active,Medium,,Personnaliser les fonctionnalités du bot,,,In Progress,2024-02,"cBot-Project est un projet visant à développer un bot de trading de cryptomonnaies personnalisé, offrant des fonctionnalités spécifiques adaptées aux besoins des utilisateurs. Actif avec une priorité moyenne, le projet se concentre sur la personnalisation des fonctionnalités."
-84,Chatbot Haven Verse,AI/ML,Active,Medium,,Améliorer les capacités conversationnelles,,,In Progress,2024-02,Chatbot Haven Verse est une plateforme avancée de chatbot offrant des interactions complexes et personnalisées pour les utilisateurs. Actif avec une priorité moyenne.
-,CI/CD Pipeline Templates,Infrastructure,In Progress,High,/infrastructure/ci-cd,Testing framework,None,GitHub Actions,Started,2024-01,Les templates de pipeline CI/CD utilisent GitHub Actions pour automatiser les processus d'intégration et de déploiement continus. Le projet nécessite la mise en place d'un framework de tests robustes et l'automatisation des déploiements.
-,Content Generation API,AI/ML,In Development,Medium,/api-services/content-gen,Add new models,AI APIs,Python/FastAPI,Minimal,2024-01,L'API de génération de contenu utilise Python et FastAPI pour fournir des services automatisés de création de contenu. Le projet nécessite l'ajout de nouveaux modèles d'IA et l'optimisation des performances de l'API pour augmenter ses capacités et sa réactivité.
-32,Content Strategy Dashboard,Analytics,Active,Medium,/07_Analytics/content-dashboard,Develop visualization tools,None,Various,In Progress,2024-02,"Content Strategy Dashboard est un tableau de bord conçu pour suivre et analyser les performances des stratégies de contenu, aidant les équipes à prendre des décisions basées sur des données concrètes. Actif avec une priorité moyenne, le projet utilise des frameworks de visualisation avancés pour présenter les indicateurs clés de performance (KPI) tels que le trafic, l'engagement et les conversions."
-74,Content Strategy Dashboard,Analytics,Active,Medium,,Développer les métriques de performance,,Inconnu,In Progress,2024-02,"Content Strategy Dashboard est un tableau de bord conçu pour suivre et analyser les performances des stratégies de contenu, aidant les équipes à prendre des décisions basées sur des données concrètes. Actif avec une priorité moyenne."
-,DApp,,Active,Medium,/03_Web3_Projects/dapp,Implement smart contracts,Web3,JavaScript,Minimal,2023-05,
-,Docker Compose Templates,Infrastructure,Active,Medium,/infrastructure/docker-templates,Add services,None,Docker,Ongoing,2024-01,Les templates Docker Compose simplifient la configuration et le déploiement des environnements de développement et de production. Le projet nécessite l'ajout de nouveaux services pour couvrir davantage de scénarios d'utilisation et l'optimisation des fichiers Compose.
-,E-commerce Platform,Web Application,Active,Medium,/02_Web_Apps/ecommerce,Implement shopping cart,None,TypeScript/Next.js,Minimal,2023-07,
-,Fitness Dashboard,Web Application,Active,Medium,/02_Web_Apps/fitness-dashboard,Add new features,None,TypeScript/React,Minimal,2024-01,
-56,Fitness NFT Tracker MVP,Web3/Blockchain,Active,Medium,/03_Web3_Projects/fitness-nft,Connect Git repository,None,Next.js,Not Started,2024-02,
-,FixieRun Ethos,Web3/Blockchain,In Development,High,/03_Web3_Projects/fixierun-ethos,Finalize Web3 integration,Smart Contracts,Solidity/React,Minimal,2024-01,"FixieRun Ethos définit les règles et interactions au sein de la plateforme Web3. Utilisant Solidity pour les contrats intelligents et React pour l'interface, le projet est en phase de finalisation de l'intégration Web3 et nécessite une documentation améliorée et des audits de sécurité."
-3,FixieRun Landing Page,Web3/Blockchain,In Development,High,/03_Web3_Projects/FixieRun,Optimize UI/UX,None,React/Solidity,In Progress,2024-02,La page d'accueil de FixieRun utilise React pour une interface dynamique et Solidity pour l'intégration des contrats intelligents. Le projet nécessite une unification de sa structure et une mise à jour de la documentation pour assurer la cohérence et la maintenabilité du code.
-64,FixieRun Smart Contracts,Web3/Blockchain,In Progress,High,/03_Web3_Projects/smart-contracts,Audit et tests rigoureux,Web3,Solidity,In Progress,2024-01,"Ce projet est dédié au développement et à la maintenance des contrats intelligents de FixieRun. Utilisant Solidity, il est essentiel de réaliser des audits de sécurité approfondis et de mettre en place des tests rigoureux."
-,FixieRun Track App,Web3/Blockchain,In Development,High,/fixierun-trackapp,Implement missing tests,FixieRun Core,React Native/Web3,Partial,2024-01,L'application Track de FixieRun est développée avec React Native pour une compatibilité multiplateforme et Web3 pour les interactions blockchain. Il est crucial d'ajouter les tests manquants pour garantir la fiabilité de l'application et optimiser les performances.
-,FullBoltProjects,Infrastructure,Active,Medium,/01_Active_Projects/full-bolt,Consolidate bolt projects,None,TypeScript,Not Started,2024-01,
-71,GraphQL API Gateway,Infrastructure,Active,Medium,,Développer les résolveurs,,Inconnu,In Progress,2024-02,"GraphQL API Gateway est un service visant à centraliser et à gérer les requêtes GraphQL pour diverses applications. Actif avec une priorité moyenne, le projet utilise Node.js et Express pour développer les résolveurs."
-67,Headless CMS Integration,Infrastructure,Active,Medium,,Développer des plugins d'intégration,,"React, Vue.js, Next.js",In Progress,2024-02,"Headless CMS Integration vise à connecter un CMS sans tête (comme Strapi, Contentful) avec diverses plateformes front-end (React, Vue.js, Next.js) pour une gestion de contenu flexible et scalable."
-30,Keyword Research Tool,SEO,Active,Medium,/06_SEO_Tools/keyword-research,Enhance search capabilities,None,Python/TypeScript,In Progress,2024-02,"Keyword Research Tool est un outil avancé d'analyse et de recherche de mots-clés destiné à aider les professionnels du SEO à identifier les termes les plus pertinents et efficaces pour leurs stratégies de contenu. Actif avec une priorité moyenne, le projet vise à développer des capacités de recherche approfondies en intégrant des API de recherche, à analyser les tendances SEO à l'aide d'algorithmes spécialisés, et à fournir des guides détaillés sur l'utilisation de l'outil et l'interprétation des résultats."
-76,Keyword Research Tool,SEO,Active,Medium,,Développer les capacités de recherche,,Inconnu,In Progress,2024-02,Keyword Research Tool est un outil avancé d'analyse et de recherche de mots-clés destiné à aider les professionnels du SEO à identifier les termes les plus pertinents et efficaces pour leurs stratégies de contenu.
-,Langchain Next.js,AI/ML,Active,High,/04_AI_Projects/langchain-nextjs,Update AI integration,Langchain,Next.js,In Progress,2023-11,
-68,Merge-Testnets,Web3/Blockchain,Active,Medium,,Développer les outils de fusion,,Inconnu,In Progress,2024-02,"Merge-Testnets est un projet visant à développer des outils pour faciliter la fusion et la gestion des testnets Ethereum, permettant aux développeurs de tester leurs contrats intelligents et applications dans des environnements simulés avant le déploiement."
-87,Minimalist Frontend Boilerplate,Infrastructure,Active,Medium,,Optimiser le boilerplate,,Inconnu,In Progress,2024-02,"Le boilerplate frontend minimaliste est conçu comme une base légère pour le développement rapide d'applications frontend, mettant l'accent sur la simplicité et l'efficacité. Actif avec une priorité moyenne."
-26,ML Model Pipeline,AI/ML,Active,High,/04_AI_Projects/ml-pipeline,Automate deployment process,MLflow,Python,In Progress,2024-02,"Le pipeline de modèles ML est conçu pour automatiser le cycle de vie des modèles d'apprentissage automatique, de l'entraînement au déploiement. Actif avec une priorité moyenne, le projet vise à intégrer des outils comme Kubeflow ou MLflow pour orchestrer le pipeline, mettre en place des tests de performance et de validation pour chaque étape, et documenter les processus et configurations nécessaires pour maintenir et mettre à jour le pipeline efficacement."
-81,ML Model Pipeline,AI/ML,Active,High,,Automatiser le cycle de vie,,Inconnu,In Progress,2024-02,"Le pipeline de modèles ML est conçu pour automatiser le cycle de vie des modèles d'apprentissage automatique, de l'entraînement au déploiement. Actif avec une priorité moyenne."
-,Modern SaaS Landing,Web Application,Active,Medium,/02_Web_Apps/modern-saas-landing,Optimize UI/UX,None,HTML/CSS/JS,In Progress,2024-01,"La landing page moderne pour SaaS est conçue pour attirer et convertir les visiteurs en utilisateurs en présentant les avantages et les fonctionnalités du service de manière claire et attrayante. Actif avec une priorité moyenne, le projet vise à concevoir une interface utilisateur convaincante, optimiser le SEO et réaliser des tests A/B pour maximiser les taux de conversion."
-85,Mon Projet AI,AI/ML,Active,Medium,,Développer des modèles personnalisés,,,In Progress,2024-02,"""Mon Projet AI"" est une initiative personnelle visant à développer et à implémenter des solutions d'intelligence artificielle pour divers cas d'utilisation. Actif avec une priorité moyenne."
-,Monitoring Stack,Infrastructure,Planning,Medium,/infrastructure/monitoring,Initial setup,None,Prometheus/Grafana,Not Started,2024-01,"La stack de monitoring utilise Prometheus pour la collecte et le stockage des métriques et Grafana pour la visualisation des données. En phase de planification, il est essentiel de réaliser l'installation initiale des outils, de définir les métriques clés à surveiller."
-61,Monorepo,Infrastructure,Active,Medium,/01_Active_Projects/monorepo,Initial setup,None,Various,Not Started,2024-07,
-19,My SaaS App,SaaS,Active,High,/01_Active_Projects/mysaas,Define core features,None,Various,Not Started,2024-11,"""My SaaS App"" est une application Software as a Service générique conçue pour offrir des services via le cloud. Actif avec une priorité moyenne, le projet vise à développer des fonctionnalités essentielles (authentification, gestion des comptes, paiements) et à optimiser l'architecture pour assurer une scalabilité et une disponibilité élevées en utilisant des services cloud fiables comme AWS, Azure ou Google Cloud."
-91,Next Enterprise,Web Application,Active,Medium,,Développer des fonctionnalités avancées,,Inconnu,In Progress,2024-02,
-53,Next.js AI Chatbot,AI/ML,Active,High,/04_AI_Projects/nextjs-ai-chatbot,Setup production deployment,None,Next.js,Not Started,2024-02,
-63,Next.js Boilerplate,Infrastructure,Active,Medium,/01_Active_Projects/nextjs-boilerplate,Update dependencies,None,Next.js,In Progress,2024-02,
-18,Next.js Chat SaaS,SaaS,Active,High,/01_Active_Projects/chat-saas,Develop chat features,None,TypeScript/Next.js,In Progress,2024-11,
-,Next.js Postgres Auth Starter,Infrastructure,Active,Medium,/01_Active_Projects/postgres-auth,Update dependencies,None,Next.js/PostgreSQL,In Progress,2024-01,
-,Next.js Project,Web Application,Active,Medium,/02_Web_Apps/nextjs-project,Implement core features,None,TypeScript/Next.js,Minimal,2024-01,
-17,Next.js Subscription,SaaS,Active,High,/01_Active_Projects/subscription-payments,Implement payment system,None,TypeScript/Next.js,In Progress,2024-11,
-60,Next.js with Supabase,Infrastructure,Active,Medium,/01_Active_Projects/nextjs-supabase,Setup production deployment,Supabase,Next.js,Not Started,2024-01,
-16,Nexus,Infrastructure,Active,Medium,/01_Active_Projects/nexus,Define architecture,None,Various,Not Started,2024-11,
-12,Optimize React Docs,Documentation,Active,Low,/05_Documentation/react-docs,Update documentation,None,TypeScript,In Progress,2024-02,
-29,PBN Management SaaS,SaaS,Active,Medium,/01_Active_Projects/pbn-management,Implement security features,None,Various,In Progress,2024-02,"PBN Management SaaS est une plateforme SaaS destinée à la gestion des réseaux de blogs privés (Private Blog Networks), essentiels pour le SEO et le backlinking. Actif avec une priorité moyenne, le projet vise à développer des outils efficaces pour la création automatisée de blogs, la gestion des contenus, le suivi des performances SEO, et à assurer la sécurité des PBNs pour éviter les pénalités des moteurs de recherche, tout en fournissant des guides détaillés sur les meilleures pratiques de gestion des PBNs."
-78,PBN Management SaaS,SaaS,Active,Medium,,Développer les outils de création,,Inconnu,In Progress,2024-02,"PBN Management SaaS est une plateforme SaaS destinée à la gestion des réseaux de blogs privés (Private Blog Networks), essentiels pour le SEO et le backlinking. Actif avec une priorité moyenne."
-89,Pedal Playground,Web Application,Active,Medium,,Développer les modules de simulation,,Inconnu,In Progress,2024-02,"Pedal Playground est une plateforme de simulation de pédales de guitare, destinée aux musiciens souhaitant expérimenter avec différents effets sonores de manière virtuelle. Actif avec une priorité moyenne."
-5,Pedal Playground,Web Application,Active,Medium,/02_Web_Apps/pedal-playground,Fix wallet connection,Web3,React/TypeScript,In Progress,2024-12,"Pedal Playground est une plateforme de simulation de pédales de guitare, destinée aux musiciens souhaitant expérimenter avec différents effets sonores de manière virtuelle. Actif avec une priorité moyenne, le projet vise à développer des modules de simulation pour une variété d'effets, optimiser l'expérience utilisateur et assurer une interface conviviale pour une utilisation facile et engageante."
-,Perplexity ChatBot,AI/ML,In Progress,Medium,/chatbot-integration,Complete frontend integration,Perplexity API,Node.js/Express,Started,2024-01,"Le chatbot Perplexity est développé avec Node.js et Express pour le backend, et utilise l'API Perplexity pour les fonctionnalités d'IA. Il nécessite la complétion de l'intégration frontend et des améliorations UX/UI pour offrir une expérience utilisateur fluide et engageante."
-83,POE API Wrapper,Developer Tools,Active,Medium,,Développer des fonctionnalités du wrapper,,Inconnu,In Progress,2024-02,POE API Wrapper est un outil conçu pour faciliter l'interaction avec l'API POE en fournissant des interfaces simplifiées et des fonctionnalités supplémentaires. Actif avec une priorité moyenne.
-11,Project Insights,Analytics,Active,Medium,/01_Active_Projects/project-insights,Implement analytics dashboard,None,TypeScript/HTML,Minimal,2024-02,
-33,React Component Library,Infrastructure,Active,Medium,/01_Active_Projects/react-components,Document components,None,React/TypeScript,In Progress,2024-02,"React Component Library est une collection de composants React réutilisables conçus pour accélérer le développement d'interfaces utilisateur cohérentes et maintenables. Actif avec une priorité moyenne, le projet vise à développer une variété de composants pour les éléments courants (boutons, formulaires, modals), à les documenter et visualiser en utilisant Storybook."
+,Project Name,Category,Status,Priority,Location,Next Actions,Dependencies,Tech Stack,Documentation Status,Last Updated,Résumé_Détaillé
+0,Admin Dashboard,Infrastructure,Active,Medium,/01_Active_Projects/admin-dashboard,Implement user management,,TypeScript/React,Minimal,2024-02,
+1,Agent GPT,AI/ML,Active,High,/04_AI_Projects/agent-gpt,Update dependencies,,Next.js,In Progress,2024-02,
+2,AI Content Generator,AI/ML,Active,High,/04_AI_Projects/content-generator,Enhance generation capabilities,GPT-4,Python/TypeScript,In Progress,2024-02,"AI Content Generator est un outil destiné à automatiser la création de contenu en utilisant des modèles d'intelligence artificielle avancés. Actif avec une priorité moyenne, le projet vise à développer les capacités de génération en intégrant des modèles comme GPT-4, à permettre la personnalisation des outputs selon les besoins des utilisateurs, et à fournir des guides détaillés sur l'utilisation et la configuration de l'outil pour obtenir des résultats optimaux."
+3,AI Content Generator,AI/ML,Active,Medium,,Développer les capacités de génération,,,In Progress,2024-02,AI Content Generator est un outil destiné à automatiser la création de contenu en utilisant des modèles d'intelligence artificielle avancés. Actif avec une priorité moyenne.
+4,AI Image Generator,AI/ML,Active,High,/04_AI_Projects/image-generator,Optimize image generation,Stable Diffusion,Python/TypeScript,In Progress,2024-02,"AI Image Generator utilise des modèles de diffusion stable comme Stable Diffusion pour créer des images réalistes et artistiques basées sur des descriptions textuelles. Actif avec une priorité moyenne, le projet vise à affiner les modèles pour améliorer la qualité et la diversité des images générées, à offrir des options de personnalisation avancées pour permettre aux utilisateurs de définir le style et le ton des images, et à fournir des guides et des exemples de prompts pour faciliter l'utilisation de l'outil."
+5,AI Image Generator,AI/ML,Active,High,,Développer les capacités de génération,,"Python, Stable Diffusion",In Progress,2024-02,AI Image Generator utilise des modèles de diffusion stable comme Stable Diffusion pour créer des images réalistes et artistiques basées sur des descriptions textuelles. Actif avec une priorité moyenne.
+6,AIFTW AI,AI/ML,Active,High,/04_AI_Projects/aiftw,Update dependencies,,Next.js,In Progress,2024-02,"AIFTW AI est une plateforme dédiée au développement et à l'intégration de solutions d'intelligence artificielle. Actif avec une priorité moyenne, le projet vise à développer des outils avancés pour l'entraînement et le déploiement des modèles d'IA, optimiser l'architecture pour la scalabilité, et fournir des guides d'utilisation détaillés pour faciliter l'adoption et la maintenance des solutions d'IA proposées."
+7,AIFTW AI,AI/ML,Active,Medium,,Développer les outils d'IA,,,In Progress,2024-02,AIFTW AI est une plateforme dédiée au développement et à l'intégration de solutions d'intelligence artificielle. Actif avec une priorité moyenne.
+8,AIFTW Landing,Web Application,Active,Medium,/02_Web_Apps/aiftw-landing,Connect Git repository,,Next.js,Not Started,2024-12,
+9,AIFTW Landing Pages,AI/ML,In Progress,Medium,/04_AI_Projects/aiftw-landing,Consolidate versions,,React/Next.js,Needs Update,2024-01,Les pages d'atterrissage AIFTW sont développées avec React et Next.js pour une performance optimale. Le projet nécessite la consolidation des différentes versions existantes et une optimisation de l'interface utilisateur pour améliorer l'engagement des utilisateurs.
+10,AIFTW Model Training,AI/ML,Active,High,/04_AI_Projects/model-training,Optimize performance,ML Libraries,Python/TensorFlow,Partial,2024-01,Ce projet se concentre sur le développement et l'optimisation des modèles d'apprentissage automatique avec Python et TensorFlow. Il est crucial d'optimiser les performances des modèles et d'améliorer la gestion et la qualité des données d'entraînement pour des résultats plus précis et efficaces.
+11,AIFTW Platform Dashboard,AI/ML,In Development,High,/04_AI_Projects/aiftw-unified,Complete Docker infrastructure,AI Models,Node.js/React,In Progress,2024-01,"Le tableau de bord de la plateforme AIFTW utilise Node.js pour le backend et React pour l'interface utilisateur, avec Docker pour la conteneurisation. Il est nécessaire de finaliser l'infrastructure Docker et d'intégrer pleinement les modèles d'IA pour une gestion efficace et scalable."
+12,API Gateway Service,Infrastructure,In Development,High,/infrastructure/api-gateway,Security implementation,,Node.js/Express,Partial,2024-01,"Le service API Gateway utilise Node.js et Express pour servir de point d'entrée unique pour toutes les APIs. Actuellement en développement, le projet nécessite l'implémentation de mesures de sécurité robustes et l'optimisation des performances en utilisant des techniques de mise en cache et de rate limiting."
+13,Art Gallery Project,Web Application,Active,Low,/02_Web_Apps/art-gallery,Add gallery features,,TypeScript,Minimal,2023-05,
+14,Astro-Boilerplate-1,Infrastructure,Active,Medium,,Finaliser le boilerplate,,"Astro, Tailwind, TypeScript",In Progress,2024-02,"Astro-Boilerplate-1 est un template de boilerplate conçu pour le développement de projets utilisant le framework Astro, offrant une structure de base et des configurations optimisées pour accélérer le démarrage de nouveaux projets."
+15,Astro-Portfolio,Web Application,Active,Medium,,Personnaliser le design,,"Astro, Tailwind, TypeScript",In Progress,2024-02,"Astro-Portfolio est un site de portfolio développé avec le framework Astro, visant à offrir une plateforme rapide et optimisée pour présenter des projets et des compétences. Actif avec une priorité moyenne, le projet se concentre sur la personnalisation du design, l'optimisation du SEO, et l'intégration d'animations."
+16,Auth0 SaaS Starter,SaaS,Active,High,/01_Active_Projects/auth0-saas,Initial setup,Auth0,Next.js,Not Started,2024-10,
+17,Auto-GPT,AI/ML,Active,Medium,/04_AI_Projects/auto-gpt,Update AI models,,Python,In Progress,2023-05,
+18,Backlink Manager,SEO,Active,Medium,/06_SEO_Tools/backlink-manager,Implement tracking features,,Various,In Progress,2024-02,"Backlink Manager est un outil destiné à surveiller, analyser et gérer les backlinks d'un site web, éléments cruciaux pour le référencement naturel et l'autorité de domaine. Actif avec une priorité moyenne, le projet vise à développer des fonctionnalités avancées pour le suivi des nouveaux liens, l'évaluation de la qualité des backlinks, la gestion des backlinks nuisibles et la documentation des meilleures pratiques SEO."
+19,Backlink Manager,SEO,Active,Medium,,Développer les fonctionnalités de suivi,,Inconnu,In Progress,2024-02,"Backlink Manager est un outil destiné à surveiller, analyser et gérer les backlinks d'un site web, éléments cruciaux pour le référencement naturel et l'autorité de domaine. Actif avec une priorité moyenne."
+20,Binance-Trading-Bot,AI/ML,Active,Medium,,Développer des stratégies de trading,,,In Progress,2024-02,"Binance-Trading-Bot est un bot de trading automatisé conçu pour effectuer des transactions sur l'échange Binance en se basant sur des stratégies prédéfinies. Actif avec une priorité moyenne, le projet vise à développer et implémenter des stratégies de trading."
+21,Bluise,Web Application,Active,Low,/02_Web_Apps/bluise,Update dependencies,,Vue.js,In Progress,2023-07,
+22,Bolt DIY,Tools,Active,Medium,/08_Tools/bolt-diy,Develop intuitive interface,,TypeScript,In Progress,2024-02,"Bolt DIY est une plateforme permettant aux utilisateurs de créer et de personnaliser leurs propres outils et applications de manière autonome (Do It Yourself). Actif avec une priorité moyenne, le projet vise à développer une interface utilisateur intuitive, offrir des options de personnalisation avancées et fournir des guides et tutoriels complets pour encourager la créativité et l'innovation parmi les utilisateurs."
+23,Bolt DIY,Tools,Active,Medium,,Développer une interface intuitive,,Inconnu,In Progress,2024-02,Bolt DIY est une plateforme permettant aux utilisateurs de créer et de personnaliser leurs propres outils et applications de manière autonome (Do It Yourself). Actif avec une priorité moyenne.
+24,Bolt New Local,DevOps,Active,Medium,/01_Active_Projects/bolt-new,Optimize deployment process,GitHub,Remix,In Progress,2024-12,
+25,cBot-Project,AI/ML,Active,Medium,,Personnaliser les fonctionnalités du bot,,,In Progress,2024-02,"cBot-Project est un projet visant à développer un bot de trading de cryptomonnaies personnalisé, offrant des fonctionnalités spécifiques adaptées aux besoins des utilisateurs. Actif avec une priorité moyenne, le projet se concentre sur la personnalisation des fonctionnalités."
+26,Chatbot Haven Verse,AI/ML,Active,Medium,,Améliorer les capacités conversationnelles,,,In Progress,2024-02,Chatbot Haven Verse est une plateforme avancée de chatbot offrant des interactions complexes et personnalisées pour les utilisateurs. Actif avec une priorité moyenne.
+27,CI/CD Pipeline Templates,Infrastructure,In Progress,High,/infrastructure/ci-cd,Testing framework,,GitHub Actions,Started,2024-01,Les templates de pipeline CI/CD utilisent GitHub Actions pour automatiser les processus d'intégration et de déploiement continus. Le projet nécessite la mise en place d'un framework de tests robustes et l'automatisation des déploiements.
+28,Content Generation API,AI/ML,In Development,Medium,/api-services/content-gen,Add new models,AI APIs,Python/FastAPI,Minimal,2024-01,L'API de génération de contenu utilise Python et FastAPI pour fournir des services automatisés de création de contenu. Le projet nécessite l'ajout de nouveaux modèles d'IA et l'optimisation des performances de l'API pour augmenter ses capacités et sa réactivité.
+29,Content Strategy Dashboard,Analytics,Active,Medium,/07_Analytics/content-dashboard,Develop visualization tools,,Various,In Progress,2024-02,"Content Strategy Dashboard est un tableau de bord conçu pour suivre et analyser les performances des stratégies de contenu, aidant les équipes à prendre des décisions basées sur des données concrètes. Actif avec une priorité moyenne, le projet utilise des frameworks de visualisation avancés pour présenter les indicateurs clés de performance (KPI) tels que le trafic, l'engagement et les conversions."
+30,Content Strategy Dashboard,Analytics,Active,Medium,,Développer les métriques de performance,,Inconnu,In Progress,2024-02,"Content Strategy Dashboard est un tableau de bord conçu pour suivre et analyser les performances des stratégies de contenu, aidant les équipes à prendre des décisions basées sur des données concrètes. Actif avec une priorité moyenne."
+31,DApp,,Active,Medium,/03_Web3_Projects/dapp,Implement smart contracts,Web3,JavaScript,Minimal,2023-05,
+32,Docker Compose Templates,Infrastructure,Active,Medium,/infrastructure/docker-templates,Add services,,Docker,Ongoing,2024-01,Les templates Docker Compose simplifient la configuration et le déploiement des environnements de développement et de production. Le projet nécessite l'ajout de nouveaux services pour couvrir davantage de scénarios d'utilisation et l'optimisation des fichiers Compose.
+33,E-commerce Platform,Web Application,Active,Medium,/02_Web_Apps/ecommerce,Implement shopping cart,,TypeScript/Next.js,Minimal,2023-07,
+34,Fitness Dashboard,Web Application,Active,Medium,/02_Web_Apps/fitness-dashboard,Add new features,,TypeScript/React,Minimal,2024-01,
+35,Fitness NFT Tracker MVP,Web3/Blockchain,Active,Medium,/03_Web3_Projects/fitness-nft,Connect Git repository,,Next.js,Not Started,2024-02,
+36,FixieRun Ethos,Web3/Blockchain,In Development,High,/03_Web3_Projects/fixierun-ethos,Finalize Web3 integration,Smart Contracts,Solidity/React,Minimal,2024-01,"FixieRun Ethos définit les règles et interactions au sein de la plateforme Web3. Utilisant Solidity pour les contrats intelligents et React pour l'interface, le projet est en phase de finalisation de l'intégration Web3 et nécessite une documentation améliorée et des audits de sécurité."
+37,FixieRun Landing Page,Web3/Blockchain,In Development,High,/03_Web3_Projects/FixieRun,Optimize UI/UX,,React/Solidity,In Progress,2024-02,La page d'accueil de FixieRun utilise React pour une interface dynamique et Solidity pour l'intégration des contrats intelligents. Le projet nécessite une unification de sa structure et une mise à jour de la documentation pour assurer la cohérence et la maintenabilité du code.
+38,FixieRun Smart Contracts,Web3/Blockchain,In Progress,High,/03_Web3_Projects/smart-contracts,Audit et tests rigoureux,Web3,Solidity,In Progress,2024-01,"Ce projet est dédié au développement et à la maintenance des contrats intelligents de FixieRun. Utilisant Solidity, il est essentiel de réaliser des audits de sécurité approfondis et de mettre en place des tests rigoureux."
+39,FixieRun Track App,Web3/Blockchain,In Development,High,/fixierun-trackapp,Implement missing tests,FixieRun Core,React Native/Web3,Partial,2024-01,L'application Track de FixieRun est développée avec React Native pour une compatibilité multiplateforme et Web3 pour les interactions blockchain. Il est crucial d'ajouter les tests manquants pour garantir la fiabilité de l'application et optimiser les performances.
+40,FullBoltProjects,Infrastructure,Active,Medium,/01_Active_Projects/full-bolt,Consolidate bolt projects,,TypeScript,Not Started,2024-01,
+41,GraphQL API Gateway,Infrastructure,Active,Medium,,Développer les résolveurs,,Inconnu,In Progress,2024-02,"GraphQL API Gateway est un service visant à centraliser et à gérer les requêtes GraphQL pour diverses applications. Actif avec une priorité moyenne, le projet utilise Node.js et Express pour développer les résolveurs."
+42,Headless CMS Integration,Infrastructure,Active,Medium,,Développer des plugins d'intégration,,"React, Vue.js, Next.js",In Progress,2024-02,"Headless CMS Integration vise à connecter un CMS sans tête (comme Strapi, Contentful) avec diverses plateformes front-end (React, Vue.js, Next.js) pour une gestion de contenu flexible et scalable."
+43,Keyword Research Tool,SEO,Active,Medium,/06_SEO_Tools/keyword-research,Enhance search capabilities,,Python/TypeScript,In Progress,2024-02,"Keyword Research Tool est un outil avancé d'analyse et de recherche de mots-clés destiné à aider les professionnels du SEO à identifier les termes les plus pertinents et efficaces pour leurs stratégies de contenu. Actif avec une priorité moyenne, le projet vise à développer des capacités de recherche approfondies en intégrant des API de recherche, à analyser les tendances SEO à l'aide d'algorithmes spécialisés, et à fournir des guides détaillés sur l'utilisation de l'outil et l'interprétation des résultats."
+44,Keyword Research Tool,SEO,Active,Medium,,Développer les capacités de recherche,,Inconnu,In Progress,2024-02,Keyword Research Tool est un outil avancé d'analyse et de recherche de mots-clés destiné à aider les professionnels du SEO à identifier les termes les plus pertinents et efficaces pour leurs stratégies de contenu.
+45,Langchain Next.js,AI/ML,Active,High,/04_AI_Projects/langchain-nextjs,Update AI integration,Langchain,Next.js,In Progress,2023-11,
+46,Merge-Testnets,Web3/Blockchain,Active,Medium,,Développer les outils de fusion,,Inconnu,In Progress,2024-02,"Merge-Testnets est un projet visant à développer des outils pour faciliter la fusion et la gestion des testnets Ethereum, permettant aux développeurs de tester leurs contrats intelligents et applications dans des environnements simulés avant le déploiement."
+47,Minimalist Frontend Boilerplate,Infrastructure,Active,Medium,,Optimiser le boilerplate,,Inconnu,In Progress,2024-02,"Le boilerplate frontend minimaliste est conçu comme une base légère pour le développement rapide d'applications frontend, mettant l'accent sur la simplicité et l'efficacité. Actif avec une priorité moyenne."
+48,ML Model Pipeline,AI/ML,Active,High,/04_AI_Projects/ml-pipeline,Automate deployment process,MLflow,Python,In Progress,2024-02,"Le pipeline de modèles ML est conçu pour automatiser le cycle de vie des modèles d'apprentissage automatique, de l'entraînement au déploiement. Actif avec une priorité moyenne, le projet vise à intégrer des outils comme Kubeflow ou MLflow pour orchestrer le pipeline, mettre en place des tests de performance et de validation pour chaque étape, et documenter les processus et configurations nécessaires pour maintenir et mettre à jour le pipeline efficacement."
+49,ML Model Pipeline,AI/ML,Active,High,,Automatiser le cycle de vie,,Inconnu,In Progress,2024-02,"Le pipeline de modèles ML est conçu pour automatiser le cycle de vie des modèles d'apprentissage automatique, de l'entraînement au déploiement. Actif avec une priorité moyenne."
+50,Modern SaaS Landing,Web Application,Active,Medium,/02_Web_Apps/modern-saas-landing,Optimize UI/UX,,HTML/CSS/JS,In Progress,2024-01,"La landing page moderne pour SaaS est conçue pour attirer et convertir les visiteurs en utilisateurs en présentant les avantages et les fonctionnalités du service de manière claire et attrayante. Actif avec une priorité moyenne, le projet vise à concevoir une interface utilisateur convaincante, optimiser le SEO et réaliser des tests A/B pour maximiser les taux de conversion."
+51,Mon Projet AI,AI/ML,Active,Medium,,Développer des modèles personnalisés,,,In Progress,2024-02,"""Mon Projet AI"" est une initiative personnelle visant à développer et à implémenter des solutions d'intelligence artificielle pour divers cas d'utilisation. Actif avec une priorité moyenne."
+52,Monitoring Stack,Infrastructure,Planning,Medium,/infrastructure/monitoring,Initial setup,,Prometheus/Grafana,Not Started,2024-01,"La stack de monitoring utilise Prometheus pour la collecte et le stockage des métriques et Grafana pour la visualisation des données. En phase de planification, il est essentiel de réaliser l'installation initiale des outils, de définir les métriques clés à surveiller."
+53,Monorepo,Infrastructure,Active,Medium,/01_Active_Projects/monorepo,Initial setup,,Various,Not Started,2024-07,
+54,My SaaS App,SaaS,Active,High,/01_Active_Projects/mysaas,Define core features,,Various,Not Started,2024-11,"""My SaaS App"" est une application Software as a Service générique conçue pour offrir des services via le cloud. Actif avec une priorité moyenne, le projet vise à développer des fonctionnalités essentielles (authentification, gestion des comptes, paiements) et à optimiser l'architecture pour assurer une scalabilité et une disponibilité élevées en utilisant des services cloud fiables comme AWS, Azure ou Google Cloud."
+55,Next Enterprise,Web Application,Active,Medium,,Développer des fonctionnalités avancées,,Inconnu,In Progress,2024-02,
+56,Next.js AI Chatbot,AI/ML,Active,High,/04_AI_Projects/nextjs-ai-chatbot,Setup production deployment,,Next.js,Not Started,2024-02,
+57,Next.js Boilerplate,Infrastructure,Active,Medium,/01_Active_Projects/nextjs-boilerplate,Update dependencies,,Next.js,In Progress,2024-02,
+58,Next.js Chat SaaS,SaaS,Active,High,/01_Active_Projects/chat-saas,Develop chat features,,TypeScript/Next.js,In Progress,2024-11,
+59,Next.js Postgres Auth Starter,Infrastructure,Active,Medium,/01_Active_Projects/postgres-auth,Update dependencies,,Next.js/PostgreSQL,In Progress,2024-01,
+60,Next.js Project,Web Application,Active,Medium,/02_Web_Apps/nextjs-project,Implement core features,,TypeScript/Next.js,Minimal,2024-01,
+61,Next.js Subscription,SaaS,Active,High,/01_Active_Projects/subscription-payments,Implement payment system,,TypeScript/Next.js,In Progress,2024-11,
+62,Next.js with Supabase,Infrastructure,Active,Medium,/01_Active_Projects/nextjs-supabase,Setup production deployment,Supabase,Next.js,Not Started,2024-01,
+63,Nexus,Infrastructure,Active,Medium,/01_Active_Projects/nexus,Define architecture,,Various,Not Started,2024-11,
+64,Optimize React Docs,Documentation,Active,Low,/05_Documentation/react-docs,Update documentation,,TypeScript,In Progress,2024-02,
+65,PBN Management SaaS,SaaS,Active,Medium,/01_Active_Projects/pbn-management,Implement security features,,Various,In Progress,2024-02,"PBN Management SaaS est une plateforme SaaS destinée à la gestion des réseaux de blogs privés (Private Blog Networks), essentiels pour le SEO et le backlinking. Actif avec une priorité moyenne, le projet vise à développer des outils efficaces pour la création automatisée de blogs, la gestion des contenus, le suivi des performances SEO, et à assurer la sécurité des PBNs pour éviter les pénalités des moteurs de recherche, tout en fournissant des guides détaillés sur les meilleures pratiques de gestion des PBNs."
+66,PBN Management SaaS,SaaS,Active,Medium,,Développer les outils de création,,Inconnu,In Progress,2024-02,"PBN Management SaaS est une plateforme SaaS destinée à la gestion des réseaux de blogs privés (Private Blog Networks), essentiels pour le SEO et le backlinking. Actif avec une priorité moyenne."
+67,Pedal Playground,Web Application,Active,Medium,,Développer les modules de simulation,,Inconnu,In Progress,2024-02,"Pedal Playground est une plateforme de simulation de pédales de guitare, destinée aux musiciens souhaitant expérimenter avec différents effets sonores de manière virtuelle. Actif avec une priorité moyenne."
+68,Pedal Playground,Web Application,Active,Medium,/02_Web_Apps/pedal-playground,Fix wallet connection,Web3,React/TypeScript,In Progress,2024-12,"Pedal Playground est une plateforme de simulation de pédales de guitare, destinée aux musiciens souhaitant expérimenter avec différents effets sonores de manière virtuelle. Actif avec une priorité moyenne, le projet vise à développer des modules de simulation pour une variété d'effets, optimiser l'expérience utilisateur et assurer une interface conviviale pour une utilisation facile et engageante."
+69,Perplexity ChatBot,AI/ML,In Progress,Medium,/chatbot-integration,Complete frontend integration,Perplexity API,Node.js/Express,Started,2024-01,"Le chatbot Perplexity est développé avec Node.js et Express pour le backend, et utilise l'API Perplexity pour les fonctionnalités d'IA. Il nécessite la complétion de l'intégration frontend et des améliorations UX/UI pour offrir une expérience utilisateur fluide et engageante."
+70,POE API Wrapper,Developer Tools,Active,Medium,,Développer des fonctionnalités du wrapper,,Inconnu,In Progress,2024-02,POE API Wrapper est un outil conçu pour faciliter l'interaction avec l'API POE en fournissant des interfaces simplifiées et des fonctionnalités supplémentaires. Actif avec une priorité moyenne.
+71,Project Insights,Analytics,Active,Medium,/01_Active_Projects/project-insights,Implement analytics dashboard,,TypeScript/HTML,Minimal,2024-02,
+72,React Component Library,Infrastructure,Active,Medium,/01_Active_Projects/react-components,Document components,,React/TypeScript,In Progress,2024-02,"React Component Library est une collection de composants React réutilisables conçus pour accélérer le développement d'interfaces utilisateur cohérentes et maintenables. Actif avec une priorité moyenne, le projet vise à développer une variété de composants pour les éléments courants (boutons, formulaires, modals), à les documenter et visualiser en utilisant Storybook."
 73,React Component Library,Infrastructure,Active,Medium,,Développer des composants diversifiés,,React,In Progress,2024-02,"React Component Library est une collection de composants React réutilisables conçus pour accélérer le développement d'interfaces utilisateur cohérentes et maintenables. Actif avec une priorité moyenne, le projet vise à développer une variété de composants."
-88,Remix App,Web Application,Active,Medium,,Optimiser les performances,,Remix Framework,In Progress,2024-02,"Remix App est une application développée en utilisant le framework Remix, visant à offrir une expérience utilisateur fluide et des fonctionnalités avancées. Actif avec une priorité moyenne."
-,SaaS Project Template,Infrastructure,Active,High,/01_Active_Projects/SaaS-Projects,Standardize architecture,None,Various,In Progress,2024-01,"Le template de projet SaaS est conçu pour fournir une architecture standardisée facilitant le démarrage rapide de nouvelles applications SaaS. Il est essentiel de définir des conventions d'architecture communes, de documenter les meilleures pratiques de codage et de mettre en place des modules réutilisables pour les fonctionnalités fréquemment utilisées."
-,SEO Affiliate Assistant,Developer Tools,In Development,Medium,/tools/seo-affiliate,Add analytics metrics,SEO API,Node.js,Partial,2024-01,L'assistant SEO Affiliate utilise Node.js et une API SEO pour optimiser les stratégies affiliées en fournissant des analyses et des recommandations basées sur les données SEO. Il est nécessaire d'ajouter des métriques d'analytics et d'optimiser les algorithmes.
-,SEO Analyzer Tool,Developer Tools,In Development,Medium,/seo_analyzer_tool_c5gpqi,Improve UI,Analytics API,Python/React,Minimal,2024-01,L'outil d'analyse SEO utilise Python et React pour évaluer et améliorer les performances SEO des sites web en se basant sur des données récupérées via une API Analytics. Le projet nécessite des améliorations de l'interface utilisateur et une optimisation des performances.
-77,SEO Content Optimizer,SEO,Active,Medium,,Améliorer les capacités d'analyse,,Inconnu,In Progress,2024-02,"SEO Content Optimizer est un outil visant à améliorer la qualité et la performance du contenu web pour les moteurs de recherche. Actif avec une priorité moyenne, le projet utilise Python et React pour analyser et optimiser les contenus."
-,Technical SEO Scanner,Developer Tools,Planning,Low,/tools/tech-seo,Initial setup,None,Python/JS,Not Started,2024-01,"Le scanner SEO technique utilise Python et JavaScript pour analyser et identifier les problèmes techniques affectant le référencement des sites web. En phase de planification, le projet doit débuter avec l'installation initiale des outils."
-,v0-dj,Web Application,Active,Medium,/02_Web_Apps/v0-dj,Connect Git repository,None,Next.js,Not Started,2024-01,
-,VPS Dashboard,DevOps,Active,Medium,/01_Active_Projects/vps-dashboard,Setup initial deployment,None,Next.js,Not Started,2024-01,
-34,Vue.js Design System,Infrastructure,Active,Medium,/01_Active_Projects/vue-design-system,Standardize components,None,Vue.js,In Progress,2024-02,"Vue.js Design System est un ensemble de composants et de styles cohérents pour le développement d'applications utilisant le framework Vue.js. Actif avec une priorité moyenne, le projet vise à créer des composants Vue réutilisables pour les éléments courants de l'interface utilisateur, à standardiser les styles en utilisant des préprocesseurs CSS ou des bibliothèques comme Tailwind CSS."
-72,Vue.js Design System,Infrastructure,Active,Medium,,Développer les composants de design,,"Vue.js, SCSS/Tailwind CSS",In Progress,2024-02,"Vue.js Design System est un ensemble de composants et de styles cohérents pour le développement d'applications utilisant le framework Vue.js. Actif avec une priorité moyenne, le projet vise à créer des composants Vue réutilisables."
-,Websim Dashboard,Web Application,Active,Medium,/02_Web_Apps/websim-dashboard,Setup production deployment,None,Next.js,Not Started,2024-01,
-28,WordPress Auto Deploy,DevOps,Active,Medium,/01_Active_Projects/wp-auto-deploy,Automate deployment process,None,Various,In Progress,2024-02,"WordPress Auto Deploy est un outil conçu pour automatiser le déploiement des sites WordPress, réduisant le temps et les efforts nécessaires pour mettre en ligne des sites. Actif avec une priorité moyenne, le projet vise à automatiser les processus de déploiement en utilisant des scripts et un pipeline CI/CD, à intégrer des outils de monitoring pour suivre les déploiements, et à documenter les étapes de configuration et d'utilisation de l'outil pour faciliter son adoption et son maintien."
-79,WordPress Auto Deploy,DevOps,Active,Medium,,Automatiser les processus de déploiement,,Inconnu,In Progress,2024-02,"WordPress Auto Deploy est un outil conçu pour automatiser le déploiement des sites WordPress, réduisant le temps et les efforts nécessaires pour mettre en ligne des sites. Actif avec une priorité moyenne."
-,WordPress Automation Suite,Developer Tools,Functional,Medium,/06_Tools/wordpress-automation,Improve documentation,WordPress API,Python/Bash,Outdated,2023-12,La suite d'automatisation WordPress utilise Python et Bash pour automatiser diverses tâches de gestion de sites WordPress via l'API WordPress. Le projet nécessite une amélioration de la documentation et un refactoring des scripts existants pour accroître leur efficacité et leur fiabilité.
-,WordPress Deployment Tool,WordPress/CMS,Active,Medium,/wordpress-tools/deployment,Add monitoring,None,Docker/Bash,In Progress,2024-01,Cet outil de déploiement WordPress utilise Docker et Bash pour automatiser le déploiement rapide et fiable de sites WordPress. Il est nécessaire d'ajouter des fonctionnalités de surveillance.
-,WordPress Theme Framework,WordPress/CMS,In Development,Medium,/wordpress-tools/theme-framework,Component library,None,PHP/React,Started,2024-01,Le framework de thème WordPress utilise PHP pour les fonctionnalités backend et React pour les composants frontend interactifs. Le projet nécessite la création d'une bibliothèque de composants réutilisables.
-6,WP Manager,DevOps,Active,Medium,/01_Active_Projects/wp-manager,Implement automation features,None,Vite/TypeScript,Minimal,2024-02,
+74,Remix App,Web Application,Active,Medium,,Optimiser les performances,,Remix Framework,In Progress,2024-02,"Remix App est une application développée en utilisant le framework Remix, visant à offrir une expérience utilisateur fluide et des fonctionnalités avancées. Actif avec une priorité moyenne."
+75,SaaS Project Template,Infrastructure,Active,High,/01_Active_Projects/SaaS-Projects,Standardize architecture,,Various,In Progress,2024-01,"Le template de projet SaaS est conçu pour fournir une architecture standardisée facilitant le démarrage rapide de nouvelles applications SaaS. Il est essentiel de définir des conventions d'architecture communes, de documenter les meilleures pratiques de codage et de mettre en place des modules réutilisables pour les fonctionnalités fréquemment utilisées."
+76,SEO Affiliate Assistant,Developer Tools,In Development,Medium,/tools/seo-affiliate,Add analytics metrics,SEO API,Node.js,Partial,2024-01,L'assistant SEO Affiliate utilise Node.js et une API SEO pour optimiser les stratégies affiliées en fournissant des analyses et des recommandations basées sur les données SEO. Il est nécessaire d'ajouter des métriques d'analytics et d'optimiser les algorithmes.
+77,SEO Analyzer Tool,Developer Tools,In Development,Medium,/seo_analyzer_tool_c5gpqi,Improve UI,Analytics API,Python/React,Minimal,2024-01,L'outil d'analyse SEO utilise Python et React pour évaluer et améliorer les performances SEO des sites web en se basant sur des données récupérées via une API Analytics. Le projet nécessite des améliorations de l'interface utilisateur et une optimisation des performances.
+78,SEO Content Optimizer,SEO,Active,Medium,,Améliorer les capacités d'analyse,,Inconnu,In Progress,2024-02,"SEO Content Optimizer est un outil visant à améliorer la qualité et la performance du contenu web pour les moteurs de recherche. Actif avec une priorité moyenne, le projet utilise Python et React pour analyser et optimiser les contenus."
+79,Technical SEO Scanner,Developer Tools,Planning,Low,/tools/tech-seo,Initial setup,,Python/JS,Not Started,2024-01,"Le scanner SEO technique utilise Python et JavaScript pour analyser et identifier les problèmes techniques affectant le référencement des sites web. En phase de planification, le projet doit débuter avec l'installation initiale des outils."
+80,v0-dj,Web Application,Active,Medium,/02_Web_Apps/v0-dj,Connect Git repository,,Next.js,Not Started,2024-01,
+81,VPS Dashboard,DevOps,Active,Medium,/01_Active_Projects/vps-dashboard,Setup initial deployment,,Next.js,Not Started,2024-01,
+82,Vue.js Design System,Infrastructure,Active,Medium,/01_Active_Projects/vue-design-system,Standardize components,,Vue.js,In Progress,2024-02,"Vue.js Design System est un ensemble de composants et de styles cohérents pour le développement d'applications utilisant le framework Vue.js. Actif avec une priorité moyenne, le projet vise à créer des composants Vue réutilisables pour les éléments courants de l'interface utilisateur, à standardiser les styles en utilisant des préprocesseurs CSS ou des bibliothèques comme Tailwind CSS."
+83,Vue.js Design System,Infrastructure,Active,Medium,,Développer les composants de design,,"Vue.js, SCSS/Tailwind CSS",In Progress,2024-02,"Vue.js Design System est un ensemble de composants et de styles cohérents pour le développement d'applications utilisant le framework Vue.js. Actif avec une priorité moyenne, le projet vise à créer des composants Vue réutilisables."
+84,Websim Dashboard,Web Application,Active,Medium,/02_Web_Apps/websim-dashboard,Setup production deployment,,Next.js,Not Started,2024-01,
+85,WordPress Auto Deploy,DevOps,Active,Medium,/01_Active_Projects/wp-auto-deploy,Automate deployment process,,Various,In Progress,2024-02,"WordPress Auto Deploy est un outil conçu pour automatiser le déploiement des sites WordPress, réduisant le temps et les efforts nécessaires pour mettre en ligne des sites. Actif avec une priorité moyenne, le projet vise à automatiser les processus de déploiement en utilisant des scripts et un pipeline CI/CD, à intégrer des outils de monitoring pour suivre les déploiements, et à documenter les étapes de configuration et d'utilisation de l'outil pour faciliter son adoption et son maintien."
+86,WordPress Auto Deploy,DevOps,Active,Medium,,Automatiser les processus de déploiement,,Inconnu,In Progress,2024-02,"WordPress Auto Deploy est un outil conçu pour automatiser le déploiement des sites WordPress, réduisant le temps et les efforts nécessaires pour mettre en ligne des sites. Actif avec une priorité moyenne."
+87,WordPress Automation Suite,Developer Tools,Functional,Medium,/06_Tools/wordpress-automation,Improve documentation,WordPress API,Python/Bash,Outdated,2023-12,La suite d'automatisation WordPress utilise Python et Bash pour automatiser diverses tâches de gestion de sites WordPress via l'API WordPress. Le projet nécessite une amélioration de la documentation et un refactoring des scripts existants pour accroître leur efficacité et leur fiabilité.
+88,WordPress Deployment Tool,WordPress/CMS,Active,Medium,/wordpress-tools/deployment,Add monitoring,,Docker/Bash,In Progress,2024-01,Cet outil de déploiement WordPress utilise Docker et Bash pour automatiser le déploiement rapide et fiable de sites WordPress. Il est nécessaire d'ajouter des fonctionnalités de surveillance.
+89,WordPress Theme Framework,WordPress/CMS,In Development,Medium,/wordpress-tools/theme-framework,Component library,,PHP/React,Started,2024-01,Le framework de thème WordPress utilise PHP pour les fonctionnalités backend et React pour les composants frontend interactifs. Le projet nécessite la création d'une bibliothèque de composants réutilisables.
+90,WP Manager,DevOps,Active,Medium,/01_Active_Projects/wp-manager,Implement automation features,,Vite/TypeScript,Minimal,2024-02,
+91,0,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: nan
+92,TechBuzzinga - L'actualité tech à la pointe,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 6 days ago
+93,19,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: https://websim.ai/api/v1/projects/982yker05bvfs45v11et/revisions/1/thumbnail
+94,RhymeChain | Next-Gen Hip-Hop Gaming on Blockchain,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+95,2,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: https://websim.ai/api/v1/projects/rkyo379y5_98g7z6cyjc/revisions/1/thumbnail
+96,Fitness Tracker Hub,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+97,17,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: https://websim.ai/api/v1/projects/p_rdb8bik3nzh5jbnn42/revisions/7/thumbnail
+98,Fixie.run - Fixed Gear NFT Web3 FitApp,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+99,18,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: https://websim.ai/api/v1/projects/acu8a5qdikxdp8gh5cps/revisions/1/thumbnail
+100,RhymeChain: The Future of Hip-Hop Gaming,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+101,1,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: https://websim.ai/api/v1/projects/pnt28x5acb25h2b9pqkp/revisions/2/thumbnail
+102,Beauty Product Reviews - Home,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+103,AIFTW - Advanced Intelligence For Tomorrow's World,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+104,Notre Équipe - FixieRun,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+105,23,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: https://websim.ai/api/v1/projects/xe0ke3lvbk_galz6204n/revisions/16/thumbnail
+106,🎧 Hercule MK200 System Architecture Visualization,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+107,25,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: https://websim.ai/api/v1/projects/x_vo1jxcaj965xln7szr/revisions/11/thumbnail
+108,13,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: https://websim.ai/api/v1/projects/03f9t56t66baj39935b2/revisions/1/thumbnail
+109,"Welcome to FixieNFTRun Collect, customize, and race unique fixie bikes in the ultimate NFT cycling experience!",Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+110,Untitled,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+111,Antony Lambinon - Blockchain & Web Developer,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+112,FixieRun | Fitness Gaming NFT - Gagnez des Récompenses en Pédalant,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+113,FixieRun - L'Avenir du Fitness Gaming,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+114,Enhanced WP-CLI Deployment Interface,DevOps,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+115,Interactive Turntable and Visualizer,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 months ago
+116,AIFTW Chatbot Dashboard,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 months ago
+117,"FixieRun: Ride, Earn, and Collect Unique NFT Bikes | Play-to-Earn Cycling Game",Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 months ago
+118,"FixieRun - Ride, Earn, and Collect Unique NFT Bikes",Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 months ago
+119,Start Vite development server,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Données Instantanées (1).csv
+120,Blank (forked),Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Données Instantanées (1).csv
+121,Set up Crypto Social Analysis Dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Données Instantanées (1).csv
+122,Plateforme d'optimisation SEO et SEA,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from Données Instantanées (1).csv
+123,Connect to Supabase,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Données Instantanées (1).csv
+124,SEO Tools Dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Données Instantanées (1).csv
+125,Dashboard Initial Setup,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Données Instantanées (1).csv
+126,Node.js WordPress Management Alternative,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Données Instantanées (1).csv
+127,Fork of rhymechain-landing,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+128,Next.js web app,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+129,Code improvement,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+130,Fork of aiftw-landing,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+131,Fork of portfolio,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+132,Image Analysis,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+133,Fork of project-tracking-dashboa,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+134,Merge chatbot landing pages,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+135,Seo and sea platform,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+136,Vite refactor and enhancements,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+137,Fork of artist-portfolio,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+138,Artist Portfolio,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+139,Fixierun features,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+140,Healthylivingadvices clone,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+141,Fitness App,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+142,Seo app,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+143,Code and text analysis,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+144,Fitapp Clone,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+145,Code snippet,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+146,Analyze and fix,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+147,Code all files,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+148,Enhanced prompt analysis,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+149,Vizify,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+150,Cryptix Ai,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+151,Build entire project,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+152,Improve Build Process,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+153,Forked Chat,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+154,Design with Inverse Venturi,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+155,Fixie run platform,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+156,IA and SEO Course,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+157,Code request,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+158,Text paste issue,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+159,Expert advice on engineering soc,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+160,Payment Modal,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+161,Code analysis request,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+162,Fork of memory-game,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+163,Kids Memory Game,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+164,Fork of integrations-page,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+165,Integrations Page,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+166,FixieRun Web3 App,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+167,Project dashboard development,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+168,Project tracking dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+169,3D Landing Page,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+170,Web3 and AI roadmap,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+171,Hero Geometric Background,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+172,Model Selection,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+173,Fork of AIFTW Dashboard,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+174,Analytics Dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+175,Chatbot selection analysis,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+176,Analyze task list,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+177,Front end and back end,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+178,Vercel Storage Links,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+179,Chatbot Interface,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+180,Fusion and optimization,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0 (1).csv
+181,Cyborg Invaders Arcade,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 18 hours ago
+182,Model Comparator Galaxy,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 days ago
+183,Affiliate Expert Gateway,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 days ago
+184,Fitplay Nft Adventure,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 7 days ago
+185,Pixel Pedals Nft,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 7 days ago
+186,Fitchain Quest,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 7 days ago
+187,Seo Focused Portfolio 47,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 7 days ago
+188,Relational Communicator,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 13 days ago
+189,Pbn Creator Squad,Tools,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 13 days ago
+190,Chatbot Hub Creator,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 15 days ago
+191,Chatbot Sync Hub,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 17 days ago
+192,Chatbot Gateway Hub,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 19 days ago
+193,Relate Connect Nurture,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+194,Audio Magic Weaver,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+195,Groove Mix Master,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+196,Joyful Bridge Builder,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+197,Pedal Nft Revolution,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+198,Convo Aliens Galaxy,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+199,Fixie Future Framework,Infrastructure,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+200,Augmend,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @HHBisPOo1XUj5cUuvWGeo3bBpe83
+201,Capacity Allocator,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @xmFTPbICuEVupj5KwZB9bfaaQ9b2
+202,Cortex Second Brain,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @NbgJX23vE7OqDkj8AyNQafhECC23
+203,Benchcraft,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @empenini
+204,Chef Cuistot Ia,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @ta4wxM8mnJRyRzEQWOvrPGYxmEK2
+205,Pulse Robot Landing,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @rka
+206,Chainpulse Dashboard,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @NbgJX23vE7OqDkj8AyNQafhECC23
+207,Collabnet Visualizer,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @miDUvZa2QWYujZxPAuSv80FOaRU2
+208,Codebattle Dashboard 25,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @NbgJX23vE7OqDkj8AyNQafhECC23
+209,Lovable Product Grove,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @squid
+210,Sleek Navisphere 65 90 93,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @Mf3QfNZkR3OVBiyKGzIVnAFgSjp1
+211,Stickman Style Swap,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @k0G6B5cx0pTTsyDONmX1HBsBASB3
+212,Characterforge Imagix,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @NbgJX23vE7OqDkj8AyNQafhECC23
+213,Indexia,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @dLxPg73j98cVjetCH4qIM4sIR1z1
+214,Browser Pokebattle Adventure,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @5dIlRVQYKeUo0nsHQkjmqtCRkAC3
+215,Sleekbloghaven,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @NbgJX23vE7OqDkj8AyNQafhECC23
+216,Ai Fitmind Care,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @7FVOR0kSz6RPXP1uNBrHQCBZC2t2
+217,Bitboard,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @eml
+218,Deepseekify,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @NbgJX23vE7OqDkj8AyNQafhECC23
+219,Ai Medico,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @s20wKVfkS9eRZNNRYjbcBZGJ7LD3
+220,Mindful Self Quest,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @rx7RZ8j5UiPUvPOgHJnpiy20RYU2
+221,Hero Optimizer Travel,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @harrymckayroper
+222,Animus Code Echo,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @pKf3I3T2nCZqXo0n1qhXewJTt6I3
+223,Ai Visionary Capture,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @giebG4HIusa0YEgXtDC4JpvALnz1
+224,Fork of rhymechain-landi...,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0.csv
+225,Fork of project-tracking...,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0.csv
+226,Vite refactor and enhanc...,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0.csv
+227,Vite refactor and enh...,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0.csv
+228,New Project,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0.csv
+229,Design with Inverse V...,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0.csv
+230,aiftw saas ai chatbot...,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0.csv
+231,Merge chatbot landing pa...,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0.csv
+232,Chatbot selection analys...,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0.csv
+233,Frontend Development Pla...,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Instant Data Scraper v0.csv
+234,Techbuzz Component Hub,Infrastructure,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: Unknown
+235,Nft Runner Revolution,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: Unknown
+236,Devstudio Connect,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: Unknown
+237,Lovable Sync Dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: Unknown
+238,Puffify Shop,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: Unknown
+239,Llm Comparo Analytics 60,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: Unknown
+240,Dashboard SEO/SEA Pro avec IA & Blockchain,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 days ago
+241,Clickbait Generator and Domain Authority Tracker Clones,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 86
+242,DropshippingStore.net - Your Ultimate Dropshipping Resource,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 4 days ago
+243,Professional Web Developer | SEO Specialist,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 7
+244,"Conseils pour une Vie Saine - healthylivingadvices.com
+    Avis sur les Produits de Beauté - beautyproductreviews.net
+    L'IA pour les Entreprises - aiforbusinesses.org
+    Tech Buzz In GA - techbuzzinga.com
+    Guide du Dropshipping - dropshippingstore.net
+    Actualités IA - aiftw.net
+    Affinité & Amour - affinitylove.eu",AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 5 days ago
+245,FixieRun - Revolutionize Your Fitness with Blockchain Technology,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 32
+246,SEO Content Generation Platform,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 6 days ago
+247,Micro-SaaS pour le SEO et la SEA en 2025,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1
+248,FixieRun - Transform Your Fitness Journey with Web3 Gaming,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2
+249,Vérification des Domaines,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+250,FixieRun - Activity Tracking,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: Unknown
+251,AI Creation Hub - AIFTW Chatbots,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+252,Tableau de Bord des Projets,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: Unknown
+253,Enhanced UI,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 4 weeks ago
+254,AI Chatbots Optimized Creation Engine,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 547
+255,RhymeChain - NFT Card Game,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+256,RhymeChain - La révolution hip-hop blockchain,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2
+257,AIFTW - Dashboard,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+258,FixieRun - Revolutionizing Fitness with Blockchain Technology,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 55
+259,AntonyLambi - Innovative AI Solutions,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+260,Construire des Relations Solides et Maîtriser la Communication Efficace : Guide Complet,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: Unknown
+261,Server Management Dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: Unknown
+262,AIFTW - AI For The Win,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+263,Guide pour déplacer des fichiers vers /var/www/ en toute sécurité,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: Unknown
+264,Dashboard Services | Liège AI,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+265,Bouncing Heart,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 29
+266,AIFTW Platform - All Chatbots   -,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+267,AIFTW - Analytics,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2
+268,FixieRun - Web3 Fitness Gaming,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 23
+269,FixieRun - Rejoignez la révolution du fitness gaming,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: Unknown
+270,Interactivity and Functionality Adjustment Guidance,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: Unknown
+271,Interactive Web Content,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: Unknown
+272,Automated Content Creation System,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1
+273,Cyberpunk NFT Marketplace,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt.csv
+274,Implement Performance Optimizations,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt.csv
+275,"Project Structure with zkEVM Scroll, AI, and DevOps Integration",AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt.csv
+276,Modern Development Workflow Setup,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt.csv
+277,Modern AppBuilder AI Implementation,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt.csv
+278,https://bolt.new/p/39020098,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+279,https://bolt.new/p/38971021,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+280,https://bolt.new/p/35892284,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+281,https://bolt.new/p/35708401,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+282,https://bolt.new/p/33551412,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+283,https://bolt.new/p/36978758,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+284,https://bolt.new/p/38551126,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+285,https://bolt.new/p/37344196,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+286,https://bolt.new/p/41504999,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+287,https://bolt.new/p/41382612,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+288,https://bolt.new/p/41372262,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+289,https://bolt.new/p/41084222,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+290,https://bolt.new/p/41072646,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+291,https://bolt.new/p/40879477,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+292,https://bolt.new/p/39883435,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+293,https://bolt.new/p/39874638,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+294,https://bolt.new/p/37097429,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+295,https://bolt.new/p/36584033,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+296,https://bolt.new/p/36547221,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+297,https://bolt.new/p/35460947,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+298,https://bolt.new/p/33639274,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from bolt (1).csv
+299,Seo Sea Guru,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 19 hours ago
+300,Seobiz Harmony,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 19 hours ago
+301,Rhyme Battle Nft Collection,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 19 hours ago
+302,Data Pioneer Api,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 20 hours ago
+303,Appforge Connector,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 days ago
+304,Beauty Buzz Reviews,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 3 days ago
+305,Profile Portal Breeze,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 4 days ago
+306,Lovecompatibility Hub,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 4 days ago
+307,Fixieverse Ride Nft,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 4 days ago
+308,Colors Without Blues,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 6 days ago
+309,Happy Path Navigator,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 6 days ago
+310,Creative Project Portal,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 6 days ago
+311,Joyful Connector,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 6 days ago
+312,Seo Magic Predictor,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 7 days ago
+313,Rhyme Verse Battle,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 7 days ago
+314,Rhymechain Battlecards,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 7 days ago
+315,Onboarwallet,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 7 days ago
+316,Friendly Importer 59,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 9 days ago
+317,Ai Selection Hub 45,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 10 days ago
+318,Domain Deploy Factory,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 10 days ago
+319,Crypto Social Dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 10 days ago
+320,Seo Analytics Oasis,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 12 days ago
+321,Syncverse Api,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 12 days ago
+322,Task Navigator Hub,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 23 days ago
+323,Modular Analytics Hub,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 30 days ago
+324,Devstudio Dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 1 month ago
+325,Dashboard Fusion Meter,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 1 month ago
+326,Interactify Sentinel,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 1 month ago
+327,Next Auto Poster,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 1 month ago
+328,Rhyme Battle Chain,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 1 month ago
+329,Fixie Screenshot Simulator,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 1 month ago
+330,Ai Blockchain Workflow,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 1 month ago
+331,Pedalplayground,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+332,Llm Collection Catalog,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+333,Wp Harmony Manager,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+334,Fixierun Rewards Cycling,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+335,Llm Comparo Analytics 16,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+336,Bike Highlight Animator,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+337,Taishi Xp,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @yrxRTWSPJWWWqe9l8pcTIKAwzW92
+338,Kharmigo Vibes,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @karmigojones
+339,Pickmybrain,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @anandvijayaragav
+340,Prompt Enhancer Grove,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @mr4zCt05mleEJETsn7ru8iSMpLy2
+341,Sunmoon Tracker,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @gCPHxuzfAvXDhociQqFRvqR6Lmi2
+342,M 4890,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @JpAL4iK9SefUnkAP6kc681lDPgl1
+343,Myroom 2024,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @6bhYo80TmcOp3ZtlrbUmT3gHCgm1
+344,Shape Dance Party,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @ivansi
+345,Draw To 3D,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @kzolozhkov
+346,Habitflow,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @wgqlmOLsgdQGRRVHK6z1IL2RWVa2
+347,Speech To Lovable,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @psykhi
+348,Ai Debate,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @unrrWktDdPc1qu2JnAyI914IKLk1
+349,Retro Bounce Scorekeeper,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @zJQ04tL9YKTWmAD9PaqWcFfS6vv1
+350,Three Doomscape,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @psykhi
+351,Chill Guy Meme Creator 2,Tools,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @p9gXiEmTCWf0NZIENH8cJRxq7sz1
+352,Fleetvision Dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @vyhSSF3xvbXFtGadyuYSGQMcdUs2
+353,Cryptocurrency Trading Dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @henrik
+354,Pdf,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @niklasvatn
+355,Wiktok,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @psykhi
+356,Billify Generator,Tools,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @uh1IcIbG3nMt8Ym2R8ib11ArRgr1
+357,Idea2Prompt,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @henrik
+358,30Daysoflovable,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @psykhi
+359,Claudegpt,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @henrik
+360,Project Dashboard Gleam,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+361,Harmonic Wave Engine,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+362,Beat Craft Studio,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+363,Mixmaster Harmony,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+364,Vinyl Wave Engine,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+365,Audio Mix Symphony,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+366,Mixmaster Innovate,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+367,Vinyl Mix Lab,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: about 2 months ago
+368,Wordsmith Wizard,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+369,Wp Deployment Maestro,DevOps,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+370,Friendly Bot Squad,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+371,C 2530,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+372,M 1574,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+373,Chatbot Backend Hub,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+374,Web3 Interaction Hub,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+375,Meta Prompt Squads,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 2 months ago
+376,Playful Web Interface,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 3 months ago
+377,Ai Dapp Factory,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 3 months ago
+378,Likeable,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @henrik
+379,Ai Website Redesigner,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @henrik
+380,Bill Splitter Jy,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @4jqj7i7solVQAqZlbhzRW2RIsZ42
+381,Physics Simulator Playground,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @antonosika
+382,Dark Tetris Dreamscape 80,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @Pftl26OUFYd5eHbDsG6SWHfnjM62
+383,Qr Code Generator,Tools,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @psykhi
+384,Gradient Magic Tool,Tools,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @blixt
+385,Clientlark Portal,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @antonosika
+386,Story Hunter,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @kristian
+387,Revenue Cost Visualizer,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @antonosika
+388,Crypto Glance Haven,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @kristian
+389,Mondrian Paint,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @nad
+390,Modern Crypto Explorer,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: @katrin
+391,Dapp Creator Assistant,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 3 months ago
+392,Futuristic Landing Fusion,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 3 months ago
+393,Cost Clone Creator,Tools,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 3 months ago
+394,Chatbot Squadron,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 3 months ago
+395,S 4386,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from Lovable. Last activity: 3 months ago
+396,Générateur d'Opportunités Business en Ligne,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 17 hours ago
+397,LLM Comparator,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 day ago
+398,Générateur de Patron de Couture/Broderie,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 day ago
+399,Beauty Product Reviews - Expert Analysis & Trusted Recommendations,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 days ago
+400,FixieRun - Earn NFTs While Running,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 days ago
+401,FixieRun-web3-zkEVM,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 days ago
+402,Artificielle Intelligence Hub,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 6 days ago
+403,AI Code Generator,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 6 days ago
+404,DevStudio Pro Dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+405,HTML Site Analysis Report,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+406,RhymeChain - French Hip-Hop NFT Card Game,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+407,FixieRun - Revolutionizing Fitness with Scroll zkEVM,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+408,Rapport d'Analyse de Sites HTML - Perspectives Approfondies,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+409,RhymeChain - Jeu de Cartes NFT Hip-Hop Français | Blockchain Gaming,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+410,Activity Report,Analytics,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+411,Aut0-P0st - L'IA qui multiplie votre audience sociale sans effort,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 week ago
+412,FixieRun Squads,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 weeks ago
+413,RhymeChain: Hip-Hop Meets Blockchain Gaming,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 weeks ago
+414,Project Gallery,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 weeks ago
+415,Modern React Starter Template,Infrastructure,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 weeks ago
+416,AIFTW - Chatbots,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+417,AIFTW - Accelerating Innovation,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+418,Chatbots Page,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+419,FIXIE Token Economy,Web3/Blockchain,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+420,DreamTech AI - All Tools,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+421,Interactive Playground,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+422,Guide d'Installation du Serveur Poe,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 1 month ago
+423,Enhanced Style,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+424,Dashboard | AIFTW,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+425,Fixie.run Lite Paper,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+426,Lovable Projects Dashboard,Web Application,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+427,Fitness Counter Hub,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+428,FixieRun - The Future of Fitness Gaming,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+429,Micro-SaaS 2025,SaaS,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+430,Outils d'Analyse SEO et Marketing Digital,SEO,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 2 months ago
+431,Base Href Explanation,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 months ago
+432,BikePark Mobile,Other,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 months ago
+433,Structure Technique des Outils AI,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 months ago
+434,AI-Powered Chatbots for Your Business,AI/ML,Active,Medium,,,,,In Progress,2025-03,Project imported from WebSim. Last activity: 3 months ago

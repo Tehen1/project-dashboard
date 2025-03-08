@@ -51,3 +51,8 @@ env/
 .DS_Store
 Thumbs.db
 
+# CSV data files - exclude all except the main project data file
+# This preserves the essential data while ignoring potentially large or sensitive CSV files
+*.csv
+!Projects - full.csv
+

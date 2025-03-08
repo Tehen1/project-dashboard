@@ -309,6 +309,11 @@ def main():
     # Title and description
     st.title("Project Management Dashboard")
     st.markdown("Dashboard for monitoring and tracking all projects. Use the sidebar to filter projects and access dashboard features.")
+    st.markdown("""
+    > **Data Source**: This dashboard requires at least one CSV file with project data. 
+    > The preferred data source is "Projects - full.csv" which should be kept in the repository.
+    > Other CSV files are optional and may be excluded from version control.
+    """)
     
     # Load data from CSV files
     @st.cache_data(ttl=300)  # Cache data for 5 minutes

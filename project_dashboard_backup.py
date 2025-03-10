@@ -208,100 +208,16 @@ st.markdown(
     "        font-size: 2.2em;" +
     "        font-weight: bold;" +
     "    }" +
-    
-"    @media (max-width: 768px) {" +
-"        .metric-card {" +
-"            margin-bottom: 15px;" +
-"        }" +
-"        .project-card {" +
-"            padding: 15px;" +
-"        }" +
-"    }" +
-"    .chart-container {" +
-"        background-color: white;" + 
-"        border-radius: 5px;" +
-"        padding: 15px;" +
-"        box-shadow: 0 2px 5px rgba(0,0,0,0.05);" +
-"        margin-bottom: 20px;" +
-"    }" +
-    
-"    @media (max-width: 768px) {" +
-"        .metric-card {" +
-"            margin-bottom: 15px;" +
-"        }" +
-"        .project-card {" +
-"            padding: 15px;" +
-"        }" +
-"    }" +
-"    .chart-container {" +
-"        background-color: white;" + 
-"        border-radius: 5px;" +
-"        padding: 15px;" +
-"        box-shadow: 0 2px 5px rgba(0,0,0,0.05);" +
-"        margin-bottom: 20px;" +
-"    }" +
     "</style>", 
     unsafe_allow_html=True
 )
-
-# Load data from CSV files
-@st.cache_data(ttl=300)  # Cache data for 5 minutes
-def load_data():
-    try:
-        csv_files = []
-        for root, _, files in os.walk('.'):
-            for file in files:
-                if file.endswith('.csv'):
-                    csv_files.append(os.path.join(root, file))
-        
-        # If no CSV files found, return empty DataFrame
-        if not csv_files:
-            st.warning("No CSV files found in the directory.")
-            return pd.DataFrame()
-        
-        # Focus on Projects - full.csv if it exists
-        main_file = None
-        for file in csv_files:
-            if "Projects - full.csv" in file:
-                main_file = file
-                break
-        
-        if main_file:
-            try:
-                df = pd.read_csv(main_file)
-                return df
-            except Exception as e:
-                st.warning(f"Error reading {main_file}: {e}")
-                # Continue to check other files instead of returning
-        
-        # If main_file not found or couldn't be read, look for other CSV files
-        for file in csv_files:
-            if file == main_file:
-                continue  # Skip the main file if we already tried it
-            try:
-                df = pd.read_csv(file)
-                if 'Project Name' in df.columns:
-                    return df
-            except Exception as e:
-                st.warning(f"Error reading {file}: {e}")
-        
-        # If no usable files found
-        st.warning("No usable CSV files found.")
-        return pd.DataFrame()
-        
-    except Exception as e:
-        st.error(f"Error loading data: {e}")
-        return pd.DataFrame()
-
 # Function for main application
 def main():
-    # Load data from CSV and merge duplicate projects
-    df = load_data()
-    df = merge_duplicate_projects(df)
-    show_requirements_message()
+    # Load saved GitHub repository links
+    github_repos = load_github_repos()
     
-    # Check if data is available
-    check_data_availability(df)
+    # Show requirements message
+    show_requirements_message()
     
     # Display about section in sidebar
     st.sidebar.markdown("---")
@@ -318,7 +234,7 @@ def main():
         st.sidebar.success("✓ Connected to GitHub")
         if st.sidebar.button("Disconnect from GitHub"):
             del st.session_state['github_token']
-            st.rerun()
+            st.experimental_rerun()
     else:
         st.sidebar.warning("Not connected to GitHub")
         st.sidebar.markdown(github_button("https://github.com/login", "Connect with GitHub"), unsafe_allow_html=True)
@@ -355,7 +271,7 @@ def main():
     if auto_refresh:
         st.sidebar.info(f"Dashboard will refresh every {refresh_interval} seconds.")
         time.sleep(refresh_interval)
-        st.rerun()
+        st.experimental_rerun()
 
     # Export to PDF functionality
     st.sidebar.markdown("---")
@@ -411,41 +327,42 @@ def main():
         "> Other CSV files are optional and may be excluded from version control."
     )
     
-
-
-@st.cache_data
-def merge_duplicate_projects(df):
-    # Identifie les doublons basés sur le nom du projet
-    duplicates = df['Project Name'].duplicated(keep=False)
-    unique_df = df[~duplicates].copy()
+    # Load data from CSV files
+    @st.cache_data(ttl=300)  # Cache data for 5 minutes
+    def load_data():
+        try:
+            csv_files = []
+            for root, _, files in os.walk('.'):
+                for file in files:
+                    if file.endswith('.csv'):
+                        csv_files.append(os.path.join(root, file))
+            
+            # If no CSV files found, return empty DataFrame
+            if not csv_files:
+                st.warning("No CSV files found in the directory.")
+                return pd.DataFrame()
+            
+            # Focus on Projects - full.csv if it exists
+            main_file = None
+            for file in csv_files:
+                if "Projects - full.csv" in file:
+                    main_file = file
+                    break
+            
+            if main_file:
+                df = pd.read_csv(main_file)
+                return df
+            else:
+                # If main file not found, use the first CSV file
+                df = pd.read_csv(csv_files[0])
+                return df
+        except Exception as e:
+            st.error(f"Error loading data: {e}")
+            return pd.DataFrame()
     
-    # Traite les projets en doublon
-    duplicate_names = df.loc[duplicates, 'Project Name'].unique()
+    df = load_data()
     
-    for name in duplicate_names:
-        # Sélectionne toutes les occurrences de ce projet
-        project_rows = df[df['Project Name'] == name]
-        
-        # Crée une nouvelle ligne en fusionnant les informations
-        merged_row = project_rows.iloc[0].copy()
-        
-        # Pour chaque colonne, prend la valeur non vide la plus détaillée
-        for col in df.columns:
-            if col != 'Project Name' and col != 'Unnamed: 0':
-                # Valeurs uniques non-vides pour cette colonne
-                values = [val for val in project_rows[col].unique() if pd.notna(val) and val != '']
-                
-                if len(values) > 0:
-                    # S'il y a plusieurs valeurs, prendre la plus longue (probablement la plus détaillée)
-                    merged_row[col] = max(values, key=lambda x: len(str(x)) if isinstance(x, str) else 0)
-        
-        # Ajouter cette ligne fusionnée aux résultats
-        unique_df = pd.concat([unique_df, pd.DataFrame([merged_row])], ignore_index=True)
-    
-    return unique_df
-
-# If DataFrame is empty, show message and stop
-def check_data_availability(df):
+    # If DataFrame is empty, show message and stop
     if df.empty:
         st.warning("No data available. Please check your CSV files.")
         st.stop()
@@ -513,11 +430,7 @@ def check_data_availability(df):
                         title='Project Distribution by Status',
                         color_discrete_sequence=px.colors.qualitative.Set3)
             fig.update_layout(height=400)
-            st.markdown("<div class='chart-container'>", unsafe_allow_html=True)
-            st.markdown("<div class='chart-container'>", unsafe_allow_html=True)
             st.plotly_chart(fig, use_container_width=True)
-            st.markdown("</div>", unsafe_allow_html=True)
-            st.markdown("</div>", unsafe_allow_html=True)
         else:
             st.warning("Status column not found in the data.")
     
@@ -530,11 +443,7 @@ def check_data_availability(df):
                         title='Project Distribution by Category',
                         color='Count', color_continuous_scale='Viridis')
             fig.update_layout(height=400)
-            st.markdown("<div class='chart-container'>", unsafe_allow_html=True)
-            st.markdown("<div class='chart-container'>", unsafe_allow_html=True)
             st.plotly_chart(fig, use_container_width=True)
-            st.markdown("</div>", unsafe_allow_html=True)
-            st.markdown("</div>", unsafe_allow_html=True)
         else:
             st.warning("Category column not found in the data.")
     
@@ -742,11 +651,7 @@ def check_data_availability(df):
                     orientation='h',
                     color='Count', color_continuous_scale='Turbo')
         fig.update_layout(height=500)
-        st.markdown("<div class='chart-container'>", unsafe_allow_html=True)
-        st.markdown("<div class='chart-container'>", unsafe_allow_html=True)
         st.plotly_chart(fig, use_container_width=True)
-        st.markdown("</div>", unsafe_allow_html=True)
-        st.markdown("</div>", unsafe_allow_html=True)
         
         # Add Auto-detect Technologies button for projects with unknown tech stacks
         st.markdown("### Auto-detect Technologies")
@@ -1010,45 +915,41 @@ def check_data_availability(df):
                 
                 # Update layout for better appearance
                 fig.update_layout(
-            title='Project Timeline (Gantt Chart)',
-            height=max(500, min(len(timeline_df) * 20, 1000)),  # Hauteur limitée entre 500 et 1000px
-            margin=dict(l=20, r=20, t=60, b=30),  # Marges plus grandes
-            plot_bgcolor='rgba(250, 250, 250, 0.9)',  # Fond légèrement grisé pour meilleur contraste
-            yaxis=dict(
-                autorange="reversed",  # Reverses the y-axis so newest projects are at top
-                title='',
-                tickangle=-30,  # Angle des noms de projets pour éviter le chevauchement
-                tickfont=dict(size=11),  # Smaller font for project names
-            ),
-            xaxis=dict(
-                title='Timeline',
-                gridcolor='rgba(240, 240, 240, 0.9)',  # Lighter grid lines
-                zeroline=False,  # Remove zero line for cleaner look
-            ),
-            hoverlabel=dict(
-                bgcolor="white",
-                font_size=12,
-                font_family="Arial",
-                bordercolor='rgba(0,0,0,0.1)',  # Subtle border
-            ),
-            bargap=0.4,  # Increase gap between bars for better separation
-            uniformtext=dict(minsize=8, mode='hide'),  # Consistent text size
-            showlegend=True,
-            legend=dict(
-                orientation="h",
-                yanchor="bottom",
-                y=1.02,
-                xanchor="right",
-                x=1,
-                bgcolor='rgba(255,255,255,0.8)',
-            ),
-            )  # End of layout configuration
+                    title='Project Timeline (Gantt Chart)',
+                    height=max(400, len(timeline_df) * 20),  # More compact height
+                    margin=dict(l=10, r=10, t=40, b=30),
+                    plot_bgcolor='white',  # Clean white background
+                    paper_bgcolor='white',
+                    yaxis=dict(
+                        autorange="reversed",  # Reverses the y-axis so newest projects are at top
+                        title='',
+                        tickfont=dict(size=10),  # Smaller font for project names
+                    ),
+                    xaxis=dict(
+                        title='Timeline',
+                        gridcolor='rgba(240, 240, 240, 0.9)',  # Lighter grid lines
+                        zeroline=False,  # Remove zero line for cleaner look
+                    ),
+                    hoverlabel=dict(
+                        bgcolor="white",
+                        font_size=12,
+                        font_family="Arial",
+                        bordercolor='rgba(0,0,0,0.1)',  # Subtle border
+                    ),
+                    bargap=0.4,  # Increase gap between bars for better separation
+                    uniformtext=dict(minsize=8, mode='hide'),  # Consistent text size
+                    showlegend=True,
+                    legend=dict(
+                        orientation="h",
+                        yanchor="bottom",
+                        y=1.02,
+                        xanchor="right",
+                        x=1,
+                        bgcolor='rgba(255,255,255,0.8)',
+                    ),
+                )
                 # No need to manually add legend items as they're now created naturally through the scatter points
-                st.markdown("<div class='chart-container'>", unsafe_allow_html=True)
-                st.markdown("<div class='chart-container'>", unsafe_allow_html=True)
                 st.plotly_chart(fig, use_container_width=True)
-                st.markdown("</div>", unsafe_allow_html=True)
-                st.markdown("</div>", unsafe_allow_html=True)
             else:
                 st.info("No project data available for timeline visualization.")
         except Exception as e:
@@ -1268,6 +1169,7 @@ def check_data_availability(df):
                 if 'Dependencies' in row and not pd.isna(row['Dependencies']):
                     st.markdown("##### Dependencies")
                     dependencies = row['Dependencies'].split('\n')
+                    dependencies = row['Dependencies'].split('\n')
                     for dependency in dependencies:
                         if dependency.strip():
                             st.markdown(f"- {dependency.strip()}")
@@ -1374,7 +1276,7 @@ def show_requirements_message():
         st.sidebar.code("pip install streamlit pandas plotly fpdf")
         if st.sidebar.button("I've installed the requirements"):
             st.session_state.show_req_message = False
-            st.rerun()
+            st.experimental_rerun()
 
 if __name__ == "__main__":
     main()
